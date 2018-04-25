@@ -1,0 +1,36 @@
+04/25 17:14:17: Launching app
+$ adb shell am start -n "br.ufg.inf.es.beatriz/br.ufg.inf.es.beatriz.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 26884 on device samsung-sm_j320m-42005d7dd49ec200
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/ResourcesManager: getTopLevelResources: /data/app/br.ufg.inf.es.beatriz-1/base.apk / 1.0 running in br.ufg.inf.es.beatriz rsrc of package br.ufg.inf.es.beatriz
+I/InjectionManager: Inside getClassLibPath + mLibMap{0=, 1=}
+D/ResourcesManager: For user 0 new overlays fetched Null
+I/InjectionManager: Inside getClassLibPath caller 
+I/InstantRun: starting instant run server: is main process
+D/InjectionManager: InjectionManager
+                    fillFeatureStoreMap br.ufg.inf.es.beatriz
+I/InjectionManager: Constructor br.ufg.inf.es.beatriz, Feature store :{}
+                    featureStore :{}
+W/ResourcesManager: getTopLevelResources: /data/app/br.ufg.inf.es.beatriz-1/base.apk / 1.0 running in br.ufg.inf.es.beatriz rsrc of package br.ufg.inf.es.beatriz
+W/ResourcesManager: getTopLevelResources: /data/app/br.ufg.inf.es.beatriz-1/base.apk / 1.0 running in br.ufg.inf.es.beatriz rsrc of package br.ufg.inf.es.beatriz
+W/ResourceType: Failure getting entry for 0x01080947 (t=7 e=2375) (error -75)
+W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+D/PhoneWindow: *FMB* installDecor mIsFloating : false
+               *FMB* installDecor flags : -2139029248
+D/TextView: setTypeface with style : 0
+D/TextView: setTypeface with style : 0
+D/TextView: setTypeface with style : 0
+D/Activity: performCreate Call Injection manager
+I/InjectionManager: dispatchOnViewCreated > Target : br.ufg.inf.es.beatriz.MainActivity isFragment :false
+D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: false
+D/PhoneWindow: *FMB* isFloatingMenuEnabled mFloatingMenuBtn : null
+               *FMB* isFloatingMenuEnabled return false
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Get maximum texture size. GL_MAX_TEXTURE_SIZE is 4096
+                  Enabling debug mode 0
+W/art: Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+I/InjectionManager: dispatchCreateOptionsMenu :br.ufg.inf.es.beatriz.MainActivity
+                    dispatchPrepareOptionsMenu :br.ufg.inf.es.beatriz.MainActivity
+I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@2a523c51 time:22221309
+D/InputMethodManager: windowDismissed mLockisused = false
+Application terminated.
