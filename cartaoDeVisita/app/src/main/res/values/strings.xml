@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RestaurantList</string>
+    <string name="msg_hello">Hello Android!</string>
+</resources>

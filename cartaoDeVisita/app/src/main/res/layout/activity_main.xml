@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    >
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"
+        android:layout_marginTop="8dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/img_profile"
+        android:text="@string/msg_hello"
+        tools:text="Biia!!"
+        android:background="@color/grap"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/nome"
+        android:text="vishh"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/botao">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:text="Oláaa!!"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
